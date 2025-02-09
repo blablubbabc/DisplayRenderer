@@ -1,0 +1,17 @@
+[versions]
+# Lowest supported Bukkit version.
+bukkit = "1.21.4-R0.1-SNAPSHOT"
+# Corresponding Spigot version for optional Spigot-specific features.
+spigot = "1.21.4-R0.1-SNAPSHOT"
+# Corresponding CraftBukkit version. Only required for testing.
+# Individual NMS modules can use other CraftBukkit versions.
+craftbukkit = "1.21.4-R0.1-SNAPSHOT"
+
+junit = "4.13.1"
+
+[libraries]
+bukkit = { module = "org.bukkit:bukkit", version.ref = "bukkit" }
+spigot-api = { module = "org.spigotmc:spigot-api", version.ref = "spigot" }
+craftbukkit = { module = "org.bukkit:craftbukkit", version.ref = "craftbukkit" }
+
+junit = { module = "junit:junit", version.ref = "junit" }

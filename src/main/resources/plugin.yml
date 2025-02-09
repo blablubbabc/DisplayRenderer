@@ -1,0 +1,15 @@
+name: DisplayRenderer
+version: '${pluginVersion}'
+description: '${description}'
+authors: [blablubbabc]
+website: '${dboUrl}'
+# Loading after world management plugins and soft dependencies:
+softdepend: [Multiverse-Core, My Worlds, Transporter, Vault]
+
+main: de.blablubbabc.displayRenderer.DisplayRendererPlugin
+api-version: '1.21.4'
+
+commands:
+    render:
+        description: Render something
+        usage: 'Unknown command! Try /<command> help'
