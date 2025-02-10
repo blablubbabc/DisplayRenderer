@@ -57,7 +57,7 @@ public class DisplayRendererPlugin extends JavaPlugin {
 	}
 
 	public void playEffect(Location spawnLocation) {
-		var renderer = new SpriteSheetDisplayFontAnimation(this, spriteSheet, 8, spawnLocation);
+		var renderer = new SpriteSheetDisplayFontAnimation(this, spriteSheet, 12, spawnLocation);
 		animationSystem.add(renderer);
 	}
 	
