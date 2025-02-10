@@ -18,7 +18,7 @@ Using one text display per entity results in lag when spawning too many entities
 * Automatically generate the resource pack for a given list of spritesheets.
 * Start a local web server to automatically distribute the resource pack to players.
 * Instead of spawning the text display entities on the server, send them as fake entities to players to further improve performance (no need for the server to process (e.g. tick) these entities).
-* Experiment with more sprite animations, e.g. to represents things like fires, smoke, etc.
+* Experiment with more sprite animations, e.g. fires, (colored) smoke, combining sprite animations with sprite-based moving particles, etc.
 * It might be possible to support larger sprite animations by splitting the frames into multiple glyphs and showing them side by side, either as a multi-character text display (requires a custom font to remove the 1 pixel spacing between characters), or by using multiple text displays side by side.
 
 # Credits
