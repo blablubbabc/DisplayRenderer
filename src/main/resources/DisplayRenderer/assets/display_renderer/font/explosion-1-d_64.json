@@ -1,0 +1,26 @@
+{
+    "providers": [{
+            "type": "bitmap",
+            "file": "display_renderer:font/explosion-1-d_64_test.png",
+            "ascent": 62,
+            "height": 64,
+            "chars": ["abcdefghijkl"]
+        }, {
+            "type": "space",
+            "advances": {
+                "a": 64,
+                "b": 64,
+                "c": 64,
+                "d": 64,
+                "e": 64,
+                "f": 64,
+                "g": 64,
+                "h": 64,
+                "i": 64,
+                "j": 64,
+                "k": 64,
+                "l": 64
+            }
+        }
+    ]
+}

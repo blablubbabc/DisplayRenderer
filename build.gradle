@@ -54,6 +54,7 @@ dependencies {
 	// runtimeElements. However, we need to manually add these dependencies to our test dependencies
 	// if needed.
 	compileOnly libs.spigot.api // Includes the Bukkit API
+	compileOnly libs.craftbukkit
 
 	testImplementation libs.spigot.api
 	testImplementation libs.junit
