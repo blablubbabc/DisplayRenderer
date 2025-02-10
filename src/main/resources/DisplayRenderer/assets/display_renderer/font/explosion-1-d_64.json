@@ -1,7 +1,7 @@
 {
     "providers": [{
             "type": "bitmap",
-            "file": "display_renderer:font/explosion-1-d_64_test.png",
+            "file": "display_renderer:font/explosion-1-d_64.png",
             "ascent": 62,
             "height": 64,
             "chars": ["abcdefghijkl"]

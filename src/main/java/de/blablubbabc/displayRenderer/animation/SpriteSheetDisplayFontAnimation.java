@@ -119,6 +119,6 @@ public class SpriteSheetDisplayFontAnimation implements Animation {
 		assert entity != null;
 
 		var spriteIndex = spriteSheet.toSpriteIndex(progress);
-		NMSHandler.INSTANCE.setText(entity, String.valueOf(ALPHABET[spriteIndex]), "display_renderer:explosion-1-d_64");
+		NMSHandler.INSTANCE.setText(entity, String.valueOf(ALPHABET[spriteIndex]), "display_renderer:explosion-1-d_128");
 	}
 }
