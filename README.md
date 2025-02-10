@@ -8,7 +8,7 @@ Using one text display per entity results in lag when spawning too many entities
 
 # Notes
 
-* Font bitmaps support colors and the alpha channel, so we can be use them for sprite animations.
+* Font bitmaps support colors and the alpha channel, so we can use them for sprite animations.
 * By using white glyphs, it might be possible to dynamically tint the sprites in a given color using text colors. Though, all pixels would then share that same color. But this might be suitable for certain effects (e.g. colored smoke) and then only requires a single font / set of gylphs instead of one set of glypyhs per color.
 * Unfortunately, text colors don't support alpha values. If they would, we might be able to avoid the custom font and instead dynamically build the sprite image by using for example a multi-line text display where each pixel is represented by one colored box character. We might, however, still require a custom font to remove the 1 pixel spacing between characters and between rows.
 * Instead of evenly splitting the font bitmap, Minecraft seems to detect the width of font glyphs by checking for a non-empty pixel. In order for the frames to stay horizontally aligned, there might need to be a non-empty pixel in the last column of each frame.
