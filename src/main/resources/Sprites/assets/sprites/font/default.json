@@ -1,0 +1,22 @@
+{
+    "providers": [{
+            "type": "bitmap",
+            "file": "sprites:font/basegrid.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["abcd","efgh"]
+        }, {
+            "type": "space",
+            "advances": {
+                "a": 32,
+                "b": 32,
+                "c": 32,
+                "d": 32,
+                "e": 32,
+                "f": 32,
+                "g": 32,
+                "h": 32
+            }
+        }
+    ]
+}

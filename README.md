@@ -1,4 +1,4 @@
-# Display Renderer
+# Sprites
 
 ![example](example.png)
 

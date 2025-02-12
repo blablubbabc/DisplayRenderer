@@ -1,7 +1,0 @@
-{
-   "pack": {
-      "pack_format": 46,
-      "supported_formats": [46, 46],
-      "description": "Sprites for use by the DisplayRenderer plugin"
-   }
-}

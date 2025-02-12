@@ -1,0 +1,26 @@
+{
+    "providers": [{
+            "type": "bitmap",
+            "file": "sprites:font/explosion-1-d_128.png",
+            "ascent": 126,
+            "height": 128,
+            "chars": ["abcdefghijkl"]
+        }, {
+            "type": "space",
+            "advances": {
+                "a": 128,
+                "b": 128,
+                "c": 128,
+                "d": 128,
+                "e": 128,
+                "f": 128,
+                "g": 128,
+                "h": 128,
+                "i": 128,
+                "j": 128,
+                "k": 128,
+                "l": 128
+            }
+        }
+    ]
+}
